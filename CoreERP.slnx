@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="CoreERP.API/CoreERP.API.csproj" />
+  <Project Path="CoreERP.Application/CoreERP.Application.csproj" />
+  <Project Path="CoreERP.Domain/CoreERP.Domain.csproj" />
+  <Project Path="CoreERP.Infrastructure/CoreERP.Infrastructure.csproj" />
 </Solution>
