@@ -1,0 +1,17 @@
+@hostname = localhost
+@port = 7030
+@url = https://{{hostname}}:{{port}}/api/Productos
+
+### Crear un nuevo Producto
+POST {{url}}
+Content-Type: application/json
+
+{
+  "nombre": "Laptop Gamer Pro",
+  "descripcion": "Core i9, 32GB RAM, 1TB SSD",
+  "precio": 4500.50,
+  "stock": 10
+}
+
+### Obtener todos los Productos
+GET {{url}}
